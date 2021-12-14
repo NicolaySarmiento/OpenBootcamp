@@ -1,0 +1,15 @@
+/*En este ejercicio tenéis que crear un bucle que permita concatenar textos e imprima el
+resultado final por consola.
+ */
+ 
+public class Ejercicio_Bucle_Tema3 {
+    public static void main(String[] args) {
+
+        String[] Textos = {"OpenBotcamp","Es lo mejor"," Alan Sastre un gran mentor"};
+        String meGusta= "aprendo mucho con la plataforma";
+        
+        for (int i = 0; i < 6; i++){
+            System.out.println(Textos[0] + " me gusta demasiado ademas,"+ meGusta );
+        }
+    }
+}
